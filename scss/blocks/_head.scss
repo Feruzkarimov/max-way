@@ -1,0 +1,21 @@
+/* HEAD START */
+.head {
+  width: 100%;
+  background-image: linear-gradient(
+    to right,
+    $backgroundPrimary 60%,
+    $backgroundPurple 40%
+  );
+}
+
+@media only screen and (max-width: 1180px) {
+  .head {
+    width: 100%;
+    background-image: linear-gradient(
+      to bottom,
+      $backgroundPrimary 50%,
+      $backgroundPurple 50%
+    );
+  }
+}
+/* HEAD END */

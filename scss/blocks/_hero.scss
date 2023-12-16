@@ -1,0 +1,33 @@
+/* HERO START */
+.hero {
+  padding-top: 40px;
+}
+
+.hero__wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.hero__content {
+  width: 100%;
+  max-width: 434px;
+}
+
+.hero__title {
+  margin-top: 0;
+  margin-bottom: 14px;
+  color: $colorPrimary;
+  font-size: 80px;
+  font-weight: 900;
+  line-height: 85px;
+}
+
+.hero__desc {
+  margin-top: 0;
+  margin-bottom: 66px;
+  color: $colorPrimary;
+  font-size: 18px;
+  line-height: 32px;
+}
+/* HERO END */
