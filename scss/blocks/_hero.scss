@@ -9,6 +9,10 @@
   align-items: center;
 }
 
+.hero__wrapper-start {
+  width: 100%;
+}
+
 .hero__content {
   width: 100%;
   max-width: 434px;
@@ -29,5 +33,131 @@
   color: $colorPrimary;
   font-size: 18px;
   line-height: 32px;
+}
+
+.hero__card-list {
+  width: 100%;
+  max-width: 551px;
+  display: flex;
+  justify-content: space-between;
+  gap: 41px;
+}
+
+.hero__card-item {
+  position: relative;
+  width: 100%;
+  max-width: 255px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 31px;
+  border-radius: 12px;
+  background-image: linear-gradient(315deg, #ffc85c 1.32%, #f1b301 96.68%);
+  overflow: hidden;
+}
+
+.hero__card-badge {
+  display: inline-block;
+  // margin-bottom: 56px;
+  padding: 11px 23px 11px 53px;
+  border-radius: 19px;
+  background-color: rgba(255, 255, 255, 0.2);
+  color: $colorSecondary;
+  background-image: url("../../assets/icons/fire-icon.svg");
+  background-repeat: no-repeat;
+  background-position: 22px center;
+}
+
+.two-badge {
+  background-image: url("../../assets/icons/rocket-icon.svg");
+}
+
+.hero__card-title {
+  margin-top: 56px;
+  margin-bottom: 0;
+  display: flex;
+  flex-direction: column;
+  color: $colorPizza;
+  font-size: 34px;
+  font-weight: 700;
+  line-height: 32px;
+}
+
+.hero__card-title__end {
+  margin-left: 15px;
+}
+
+.hero__card-img {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+}
+
+.hero__card-item:last-child {
+  background-image: none;
+  background-color: $backgroundPurple;
+}
+
+.two-title {
+  color: $colorKombo;
+}
+
+.two-title.hero__card-title-start {
+  margin-left: 25px;
+}
+
+.two-title.hero__card-title__end {
+  margin-left: 0;
+}
+
+@media only screen and (max-width: 1180px) {
+  .hero__wrapper {
+    flex-direction: column-reverse;
+  }
+
+  .hero__wrapper-start {
+    padding-top: 467px;
+  }
+
+  .hero__content {
+    width: 100%;
+    max-width: 100%;
+    text-align: center;
+  }
+
+  .hero__title,
+  .hero__desc {
+    color: $colorSecondary;
+  }
+
+  .hero__card-list {
+    display: none;
+  }
+
+  .hero__big-burger {
+    position: absolute;
+    top: 250px;
+  }
+}
+
+@media only screen and (max-width: 554px) {
+  .hero__title {
+    font-size: 36px;
+    line-height: 100%;
+  }
+
+  .hero__desc {
+    font-size: 16px;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  .hero__wrapper-start{
+    padding-top: 267px;
+  }
+
+  .hero__big-burger{
+    position: absolute;
+    top: 150px;
+  }
 }
 /* HERO END */
