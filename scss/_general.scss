@@ -46,3 +46,16 @@ ol {
 a {
   text-decoration: none;
 }
+
+.line {
+  width: 100%;
+  max-width: 1310px;
+  height: 1px;
+  margin-top: 79px;
+  margin-right: auto;
+  margin-left: auto;
+  margin-bottom: 39px;
+  flex-shrink: 0;
+  background-color: #979797;
+  opacity: 0.2;
+}

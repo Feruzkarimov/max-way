@@ -1,0 +1,142 @@
+.wrapper {
+  margin-bottom: 105px;
+}
+
+.product {
+  &__title {
+    margin-top: 0;
+    margin-bottom: 30px;
+    color: $colorPrimary;
+    font-size: 52px;
+    font-weight: 700;
+  }
+
+  &__card {
+    padding: 30px 30px 20px 30px;
+    border-radius: 12px;
+    margin-bottom: 30px;
+  }
+
+  &__card-body {
+    position: relative;
+    display: flex;
+    padding: 0;
+
+    &::before {
+      position: absolute;
+      top: 0;
+      left: 0;
+      content: "";
+      width: 50px;
+      height: 50px;
+      border-radius: 50%;
+      background-image: url("../../assets/icons/fire-icon.svg");
+      background-repeat: no-repeat;
+      background-position: center center;
+      border-radius: 25px;
+      background-color: rgba(255, 255, 255, 0.25);
+      box-shadow: 0px 7px 40px 0px rgba(238, 39, 68, 0.36);
+      backdrop-filter: blur(4.077422618865967px);
+    }
+  }
+
+  &__img {
+    margin-right: 40px;
+  }
+
+  &__content {
+    width: 100%;
+    max-width: 259px;
+  }
+
+  &__subtitle {
+    margin-top: 0;
+    margin-bottom: 10px;
+    color: $colorPrimary;
+    font-size: 24px;
+    font-weight: 500;
+
+    &::after {
+      content: url("../../assets/icons/cheese.svg");
+      margin-left: 17px;
+    }
+  }
+
+  &__desc {
+    margin-top: 0;
+    margin-bottom: 13px;
+    color: $colorPrimary;
+    font-size: 14px;
+    opacity: 0.4;
+  }
+
+  &__box {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  &__card-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: $backgroundBtn;
+    color: $colorSecondary;
+    font-size: 24px;
+
+    &:hover {
+      background-color: $backgroundBtn;
+      color: $colorSecondary;
+    }
+  }
+
+  @media only screen and (max-width: 768px) {
+    &__card {
+      padding: 21px 21px 14px 21px;
+    }
+
+    &__title {
+      text-align: center;
+      font-size: 36px;
+    }
+
+    &__img {
+      width: 128px;
+      height: 128px;
+      margin-right: 28px;
+    }
+
+    &__subtitle {
+      font-size: 18px;
+      margin-bottom: 7px;
+    }
+
+    &__desc {
+      font-size: 12px;
+      margin-bottom: 9px;
+    }
+
+    &__price {
+      margin: 0;
+      font-size: 18px;
+    }
+
+    &__card-btn {
+      width: 35px;
+      height: 35px;
+    }
+  }
+
+  &__kombo{
+    &::before, &::after {
+      content: none;
+    }
+  }
+}
+
+.tab-pane {
+  margin-bottom: 105px;
+}
