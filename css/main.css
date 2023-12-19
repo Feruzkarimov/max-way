@@ -853,4 +853,137 @@ a {
 
 .tab-pane {
   margin-bottom: 105px;
+}
+
+.hero-last {
+  padding-top: 80px;
+  margin-top: 173px;
+  width: 100%;
+  height: 501px;
+  flex-shrink: 0;
+  background-color: #800A7A;
+}
+
+.hero-last__box {
+  background-image: url(../../assets/images/Path.png);
+  background-repeat: no-repeat;
+  background-position-x: right;
+}
+
+.text-box {
+  width: 655px;
+  height: 160px;
+  padding-left: 128px;
+}
+
+.last-h4__text {
+  color: #FFF;
+  font-size: 52px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.hero-last__img {
+  position: absolute;
+  left: 680px;
+  top: 4490px;
+}
+
+.google__img {
+  width: 187px;
+  border-radius: 46px;
+  padding-top: 20px;
+  padding-left: 40px;
+}
+
+.btn-img {
+  margin-top: 90px;
+  margin-left: 128px;
+  border-radius: 46px;
+  border: 1px solid rgba(255, 255, 255, 0.29);
+  -webkit-backdrop-filter: blur(13.5914087296px);
+          backdrop-filter: blur(13.5914087296px);
+  width: 250px;
+  height: 80px;
+  flex-shrink: 0;
+}
+
+.btn-img2 {
+  margin-top: -79px;
+  margin-left: 410px;
+  border-radius: 46px;
+  border: 1px solid rgba(255, 255, 255, 0.29);
+  -webkit-backdrop-filter: blur(13.5914087296px);
+          backdrop-filter: blur(13.5914087296px);
+  width: 250px;
+  height: 80px;
+  flex-shrink: 0;
+}
+
+.google__img2 {
+  width: 187px;
+  border-radius: 46px;
+  padding-top: 20px;
+  padding-left: 40px;
+}
+
+.footer-logo {
+  width: 52px;
+  height: 55px;
+}
+
+.footer-box {
+  height: 385px;
+  padding-top: 125px;
+  display: flex;
+}
+
+.footer-list__right {
+  padding-left: 138px;
+  width: 314px;
+}
+
+.footer-item_right {
+  padding-top: 3px;
+  color: #222124;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 34px;
+}
+
+.footer-list___center {
+  padding-left: 155px;
+}
+
+.footer-item__center {
+  padding-top: 3px;
+  color: #222124;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 34px;
+}
+
+.footer-item__left {
+  padding-top: 20px;
+  color: #222124;
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 33px;
+}
+
+.footer-list__left {
+  padding-left: 337px;
+}
+
+.footer-adress {
+  padding-top: 10px;
+  color: #222124;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
 }/*# sourceMappingURL=main.css.map */

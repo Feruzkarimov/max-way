@@ -1,0 +1,71 @@
+.hero-last {
+  padding-top: 80px;
+  margin-top: 173px;
+  width: 100%;
+  height: 501px;
+  flex-shrink: 0;
+  background-color: #800A7A;
+}
+
+.hero-last__box {
+  background-image: url(../../assets/images/Path.png);
+  background-repeat: no-repeat;
+  background-position-x: right;
+}
+
+
+.text-box {
+  width: 655px;
+  height: 160px;
+  padding-left: 128px;
+}
+
+.last-h4__text {
+  color: #FFF;
+  font-size: 52px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.hero-last__img {
+  position: absolute;
+  left: 680px;
+  top: 4490px;
+}
+
+.google__img {
+  width: 187px;
+  border-radius: 46px;
+  padding-top: 20px;
+  padding-left: 40px;
+}
+
+.btn-img {
+  margin-top: 90px;
+  margin-left: 128px;
+  border-radius: 46px;
+  border: 1px solid rgba(255, 255, 255, 0.29);
+  backdrop-filter: blur(13.591408729553223px);
+  width: 250px;
+  height: 80px;
+  flex-shrink: 0;
+}
+
+.btn-img2 {
+  margin-top: -79px;
+  margin-left: 410px;
+  border-radius: 46px;
+  border: 1px solid rgba(255, 255, 255, 0.29);
+  backdrop-filter: blur(13.591408729553223px);
+  width: 250px;
+  height: 80px;
+  flex-shrink: 0;
+}
+
+.google__img2 {
+  width: 187px;
+  border-radius: 46px;
+  padding-top: 20px;
+  padding-left: 40px;
+}
